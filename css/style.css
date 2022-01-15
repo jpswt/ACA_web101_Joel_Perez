@@ -8,7 +8,7 @@ body {
 
 .bg-image {
 	background-image: url('../images/recordbg.jpg');
-	height: 100vh;
+	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
