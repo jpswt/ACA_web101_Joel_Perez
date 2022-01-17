@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* 01 - Color Palette */
+:root {
+	--color-headings: #3f2a68;
+	--color-body: #999999;
+	--color-accent: #ffffff;
+
+	/*Gradient reference colors */
+	/* --gradient-top: #6666cc;
+    --gradient-bottom: #6699cc; */
+}
+
+html {
+	font-size: 62.5%;
+	/* font-family: 'Be Vietnam Pro', sans-serif;
+	font-family: 'Ubuntu Mono', monospace; */
+}
+
+body {
+	background: #fafffb;
+	color: var(--color-body);
+	font-size: 2rem;
+	font-family: 'Ubuntu Mono', monospace;
+	width: 60%;
+	margin: 0 auto;
+	border: 4px lightgray solid;
+	opacity: 80%;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 35% 65%;
+}
+
+h1 {
+	color: var(--color-headings);
+	font-size: 6rem;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-weight: 900;
+	padding-bottom: 2%;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+h3 {
+	font-size: 3rem;
+	width: 90%;
+	color: var(--color-headings);
+	margin-top: 1%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	letter-spacing: 0.8rem;
+}
+
+h4 {
+	font-size: 2.4rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h5 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.underline {
+	border-bottom: 4px solid var(--color-headings);
+	margin-left: 1%;
+	margin-right: 2%;
+}
+
+.center {
+	text-align: center;
+	width: 100%;
+}
+
+.profile-container {
+	display: grid;
+	grid-template-columns: 35% 65%;
+	color: var(--color-headings);
+}
+
+.profile-image {
+	margin-left: 10%;
+}
+
+.profile-name {
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+.underlay-box {
+	border: 4px solid lightgray;
+	opacity: 90%;
+	width: 225px;
+	height: 225px;
+	margin-top: 20%;
+}
+
+.profile-pic {
+	width: 225px;
+	height: 225px;
+	object-fit: cover;
+	position: absolute;
+	top: 6.5%;
+	left: 23%;
+}
+
+/* .content-container {
+	display: grid;
+	grid-template-columns: 35% 65%;
+} */
+
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	gap: 5%;
+	align-items: center;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	background: rgb(102, 102, 204);
+	background: rgb(65, 65, 227);
+	background: linear-gradient(
+		225deg,
+		rgba(65, 65, 227, 1) 0%,
+		rgba(102, 153, 204, 1) 60%
+	);
+	color: var(--color-accent);
+}
+
+.contact-title {
+	font-size: 3rem;
+	border-bottom: 3px solid #ffffff;
+	letter-spacing: 1rem;
+	max-width: 80%;
+	margin-top: 20%;
+}
+
+.jobs-container {
+	margin-left: 5%;
+	margin-right: 5%;
+}
