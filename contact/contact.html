@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa93db9622.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body class="hero-background">
+    <div class="color-overlay"></div>
+    <header>
+        <a href="https://austincodingacademy.com" rel="noopener noreferrer" target="blank"><img
+                src="./images/bsidelogo.png" class="logo" alt="bside design logo"></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav class="nav">
+            <a href="../index.html">Home</a>
+            <a href="../resume/resume.html">Resume</a>
+            <a href="../about/about.html">About Me</a>
+            <a href="">My Blog</a>
+            <a href="./contact.html">Contact Me</a>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span class="fas fa-bars"></span>
+        </label>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <form class="bottom-margin" action="results.html" method="GET" autocomplete="off">
+            <div>
+                <label for="email">Email</label>
+                <input class="form-style" type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <textarea class="form-style" name="comments" id="comments" cols="30" rows="2" maxlength="500"
+                    minlength="20" placeholder="Comments"></textarea>
+            </div>
+            <div>
+                <p class="bottom-margin">How did you hear about us?</p>
+                <div>
+                    <input type="checkbox" name="classmate" id="classmate">
+                    <label for="classmate">Classmate</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="resume" id="resume">
+                    <label for="resume">Resume Submission</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="linkedin" id="linkedin">
+                    <label for="linkedin">Linked In</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="coding" id="coding">
+                    <label for="coding">Coding Academy Rec</label>
+                </div>
+            </div>
+            <div>
+                <p class="bottom-margin">Do you wish to be contacted back?</p>
+                <div>
+                    <input type="radio" name="contact back" id="yes" value="yes">
+                    <label for="yes">YES</label>
+                </div>
+                <div>
+                    <input type="radio" name="contact back" id="no" value="no">
+                    <label for="no">NO</label>
+                </div>
+            </div>
+            <div>
+                <label class="label-inline top-margin" for="birthdate">Birthday Wish? (Optional)</label>
+                <input class="bottom-margin top-margin" type="date" name="birthdate" id="birthdate">
+            </div>
+            <div class="center-align">
+                <button class="form-style reset" type="reset">Reset</button>
+                <button class="form-style submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>
