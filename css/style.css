@@ -1,9 +1,10 @@
 body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	height: 100%;
+	/* height: 100%;
 	min-height: 150pt;
-	max-height: 1500pt;
+	max-height: 1500pt; */
+	overflow: auto;
 }
 
 .bg-image {
